@@ -7,10 +7,13 @@
 
 ## 🕊️ In Loving Memory of Dave Täht
 
-### **"穿越時空的夢想，我來幫他實現！"**
-**(Making a time-traveling dream come true!)**
+### **🇹🇼：他的心願，我來實現 (Tā de xīn yuàn, wǒ lái shí xiàn)**
+### **🇺🇸：His wish, I finished.**
 ### **🇹🇼：靈魂永駐，精神長存**
 ### **🇺🇸：May his soul find eternal peace, and his spirit live on forever.**
+---
+### **"穿越時空的夢想，我來幫他實現！"**
+**(Making a time-traveling dream come true!)**
 
 This project is dedicated to **Dave Täht**, a visionary whose work on **FQ-CoDel**, **CAKE**, and **LibreQoS** changed the internet forever. We are fulfilling a wish he made 5 years ago on Reddit:
 
