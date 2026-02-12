@@ -9,13 +9,29 @@
 
 ### **🇹🇼：他的心願，我來實現 (Tā de xīn yuàn, wǒ lái shí xiàn)**
 ### **🇺🇸：His wish, I finished.**
-### **🇹🇼：靈魂永駐，精神長存**
-### **🇺🇸：May his soul find eternal peace, and his spirit live on forever.**
+*(A Linux Pun: In our world, a wish ending in **.sh** is a command to be executed!)*
+
 ---
+
 ### **"穿越時空的夢想，我來幫他實現！"**
 **(Making a time-traveling dream come true!)**
 
-This project is dedicated to **Dave Täht**, a visionary whose work on **FQ-CoDel**, **CAKE**, and **LibreQoS** changed the internet forever. We are fulfilling a wish he made 5 years ago on Reddit:
+### 🎇 The Spirit of the Code: "Fireworks in the Dark"
+
+**"一支穿雲箭，千軍萬馬來相見"**
+*(One arrow pierces the clouds, and ten thousand troops come to meet.)*
+
+This Chinese idiom describes a signal so powerful it rallies everyone.
+**Dave was that arrow.**
+Just like fireworks are most mesmerizing in the darkest night, Dave shone brightest when fighting the invisible enemy of Bufferbloat.
+
+* **"The darker the night, the brighter the light."**
+* He worked tirelessly in the dead of night (just as we often do) to **tame the network chaos.**
+* Now, "Ten Thousand" (萬) legacy devices are rallying to his call.
+
+---
+
+We are fulfilling a specific wish he made 5 years ago on Reddit:
 
 ### ❝ Help port the code to more chipsets. ❞
 
@@ -27,9 +43,10 @@ This project is dedicated to **Dave Täht**, a visionary whose work on **FQ-CoDe
 
 *Original Source:* [Reddit - r/Starlink](https://www.reddit.com/r/Starlink/comments/okmx3x/comment/h61unnn/)
 
-Dave turned down numerous lucrative contracts to keep his code **Free and Open Source**. He valued global impact over prestige. Because of him, millions of devices—from Starlink satellites to rural ISP routers—deliver smoother connectivity, enabling telemedicine, education, and connection for the underserved.
+Dave turned down numerous lucrative contracts to keep his code **Free and Open Source**. He valued global impact over prestige. Because of him, millions of devices—from Starlink satellites to rural ISP routers—deliver smoother connectivity.
 
-**May his soul find eternal peace, and his spirit live on forever in our routers.**
+### **🇹🇼：靈魂永駐，精神長存**
+### **🇺🇸：May his soul find eternal peace, and his spirit live on forever in our routers.**
 
 [👉 Read the full Memorial at LibreQoS](https://libreqos.io/2025/04/01/in-loving-memory-of-dave/)
 
