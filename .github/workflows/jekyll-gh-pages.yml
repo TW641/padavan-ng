@@ -1,0 +1,49 @@
+name: Deploy README Only
+
+on:
+  push:
+    branches: ["master"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 步驟：建立一個乾淨的臨時資料夾，只把 README 放進去
+      - name: Prepare Clean Workspace
+        run: |
+          mkdir _pages_site
+          cp README.md _pages_site/index.md
+          # 如果你有圖片資料夾也可以在這裡 cp 進去
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          # 關鍵：告訴 Jekyll 只編譯這個乾淨的資料夾
+          source: ./_pages_site
+          destination: ./_site
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
