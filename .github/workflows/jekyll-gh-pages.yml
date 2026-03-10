@@ -17,12 +17,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # 步驟：建立一個乾淨的臨時資料夾，只把 README 放進去
+      # 完美修改點：把 _config.yml 和 _layouts 也複製進乾淨的工作區！
       - name: Prepare Clean Workspace
         run: |
           mkdir _pages_site
           cp README.md _pages_site/index.md
-          # 如果你有圖片資料夾也可以在這裡 cp 進去
+          cp _config.yml _pages_site/
+          cp -r _layouts _pages_site/
+          # 如果你的 NG 倉庫 README 裡有圖片，請把下面這行的註解拿掉並換成你的圖片資料夾名稱
+          # cp -r images _pages_site/ || true
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -30,7 +33,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          # 關鍵：告訴 Jekyll 只編譯這個乾淨的資料夾
+          # 告訴 Jekyll 編譯這個包含了 README 與完美底板的資料夾
           source: ./_pages_site
           destination: ./_site
 
