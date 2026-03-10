@@ -1,0 +1,13 @@
+# 專案基礎設定 (各專案請自行修改此處)
+title: "Padavan 3.4 ng (The Dave Täht Tribute Edition)"
+description: "A tribute to the soul of bufferbloat mitigation."
+url: "https://tw641.github.io"
+baseurl: "/padavan-ng"
+github_url: "https://github.com/TW641/padavan-ng"
+
+# 強制開啟 GFM 引擎與自動生成 ID (確保 TOC 單頁跳轉完美生效)
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
