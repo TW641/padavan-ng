@@ -1,4 +1,4 @@
-# [Padavan 3.4 - The "Dave Täht Tribute" Edition](https://github.com/TW641/padavan-ng)
+# [Padavan 3.4 ng - The "Dave Täht Tribute" Edition](https://github.com/TW641/padavan-ng)
 
 > **"When you miss Dave, modprobe sch_cake!"**
 > — *A tribute to the soul of bufferbloat mitigation.*
